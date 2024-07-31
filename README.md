@@ -1,4 +1,4 @@
-# Chapter 1: MEMORY LAYOUT IN C         
+# Lesson 1: MEMORY LAYOUT IN C         
 Khi chạy một chương trình C, nó sẽ tải vào bộ nhớ RAM của máy tính. Cụ thể quá trình diễn ra như sau:
 - Chương trình C được biên dịch thành mã máy - đây là các chỉ thị mà bộ xử lý CPU có thể hiểu và thực thi.      
 - Mã máy của chương trình được tải vào bộ nhớ RAM. Nó được phân bổ vào các vùng nhớ khác nhau.      
@@ -100,7 +100,7 @@ int main(){
 
 __________________________________________________________________________________________________________________________________________________________________________
 
-# Chapter 2: QUÁ TRÌNH BIÊN DỊCH CHƯƠNG TRÌNH C. 
+# Lesson 2: QUÁ TRÌNH BIÊN DỊCH CHƯƠNG TRÌNH C. 
 
 ### 1. Làm thế nào để chúng ta chạy và biên dịch một chương trình C ?       
 -> Step 1: Tạo file Source C.     
