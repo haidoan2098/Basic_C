@@ -100,7 +100,7 @@ int main(){
 
 __________________________________________________________________________________________________________________________________________________________________________
 
-# Lesson 2: QUÁ TRÌNH BIÊN DỊCH CHƯƠNG TRÌNH C. 
+# Lesson 2: COMPILATION PROCESS. 
 
 ### 1. Làm thế nào để chúng ta chạy và biên dịch một chương trình C ?       
 -> Step 1: Tạo file Source C.     

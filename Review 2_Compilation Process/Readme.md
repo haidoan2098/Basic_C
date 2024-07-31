@@ -1,4 +1,4 @@
-# Chapter 1: QUÁ TRÌNH BIÊN DỊCH CHƯƠNG TRÌNH C. 
+# Chapter 1: COMPILATION PROCESS . 
 
 ### 1. Làm thế nào để chúng ta chạy và biên dịch một chương trình C ?       
 -> Step 1: Tạo file Source C.     
