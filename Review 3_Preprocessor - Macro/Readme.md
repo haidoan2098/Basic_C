@@ -72,7 +72,7 @@ Chỉ thị #undef dùng để hủy bỏ định nghĩa trước đó của nó
 #define PI 3.14
 #undef PI
 
-#deffine SUM(a, b) ((a) + (b))
+#define SUM(a, b) ((a) + (b))
 #undef SUM
 ```
 ### 3. Chỉ thị biên dịch có điều kiện (#if, #elif, #else, #endif, #ifdef, #ifndef).    
