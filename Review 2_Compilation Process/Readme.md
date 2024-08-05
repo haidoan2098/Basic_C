@@ -1,6 +1,6 @@
-# Chapter 1: COMPILATION PROCESS . 
+# Lesson 2: COMPILATION PROCESS . 
 
-### 1. Làm thế nào để chúng ta chạy và biên dịch một chương trình C ?       
+**Làm thế nào để chúng ta chạy và biên dịch một chương trình C ?**    
 -> Step 1: Tạo file Source C.     
 -> Step 2: Sử dụng GCC để biên dịch.             
 ```
@@ -12,10 +12,10 @@ $ gcc filename.c -o filename
 ```
 $ ./filename
 ```             
-### 2. Biên dịch là gì ?
+### 1. Biên dịch là gì ?
 Biên dịch là quá trình chuyển từ ngôn ngữ C sang ngôn ngữ máy. Vì C là ngôn ngữ bậc trung nên cần một quá trình dịch ngôn ngữ C sang ngôn ngữ máy có thể hiểu được.     
 
-### 3. Quá trình biên dịch diễn ra như thế nào ?             
+### 2. Quá trình biên dịch diễn ra như thế nào ?             
 ![](https://tapit.vn/wp-content/uploads/2017/07/GCC_CompilationProcess.png)       
 
 Có 4 giai đoạn để một chương trình C được thực thi: 
@@ -62,7 +62,7 @@ $ gcc -c filename.s -o filename.o
 ```
 $ gcc filename.o -o filename
 ``` 
-==> Kết thúc quá trình, tất cả các đối tượng được liên kết lại với nhau thành một chương trình thống nhất  filename.exe.
+==> Kết thúc quá trình, tất cả các đối tượng được liên kết lại với nhau thành một chương trình thống nhất filename.exe.
 
 
      

@@ -100,9 +100,9 @@ int main(){
 
 __________________________________________________________________________________________________________________________________________________________________________
 
-# Lesson 2: COMPILATION PROCESS. 
+# Lesson 2: COMPILATION PROCESS . 
 
-**Làm thế nào để chúng ta chạy và biên dịch một chương trình C ?**      
+**Làm thế nào để chúng ta chạy và biên dịch một chương trình C ?**    
 -> Step 1: Tạo file Source C.     
 -> Step 2: Sử dụng GCC để biên dịch.             
 ```
@@ -117,13 +117,8 @@ $ ./filename
 ### 1. Biên dịch là gì ?
 Biên dịch là quá trình chuyển từ ngôn ngữ C sang ngôn ngữ máy. Vì C là ngôn ngữ bậc trung nên cần một quá trình dịch ngôn ngữ C sang ngôn ngữ máy có thể hiểu được.     
 
-<<<<<<< HEAD
 ### 2. Quá trình biên dịch diễn ra như thế nào ?             
-![](https://private-user-images.githubusercontent.com/125820144/289160222-bce15492-bcab-4c06-aae9-b77140e00075.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjIxNTgxMDAsIm5iZiI6MTcyMjE1NzgwMCwicGF0aCI6Ii8xMjU4MjAxNDQvMjg5MTYwMjIyLWJjZTE1NDkyLWJjYWItNGMwNi1hYWU5LWI3NzE0MGUwMDA3NS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNzI4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDcyOFQwOTEwMDBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0wNDE4MGNhNjc1MDM5YjUwYmE1NGRjMjg3YWNiMGQ4YmMyODQ0YWRlZWM0OWQ1ZDY4M2Y1ODYyYWNhODM3MmRlJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.dz28j411vs3rz4fpEUohX1_6UQnHCQuaxbxZolJgznw)       
-=======
-### 3. Quá trình biên dịch diễn ra như thế nào ?             
-![](https://tapit.vn/wp-content/uploads/2017/07/GCC_CompilationProcess.png)    
->>>>>>> 1d63a4d1831c11785256b852a7259938cb84ae74
+![](https://tapit.vn/wp-content/uploads/2017/07/GCC_CompilationProcess.png)       
 
 Có 4 giai đoạn để một chương trình C được thực thi: 
 - Giai đoạn tiền xử lý (Pre-processor).  
@@ -169,7 +164,7 @@ $ gcc -c filename.s -o filename.o
 ```
 $ gcc filename.o -o filename
 ``` 
-==> Kết thúc quá trình, tất cả các đối tượng được liên kết lại với nhau thành một chương trình thống nhất  filename.exe.
+==> Kết thúc quá trình, tất cả các đối tượng được liên kết lại với nhau thành một chương trình thống nhất filename.exe.
 
 __________________________________________________________________________________________________________________________________________________________________________
 
@@ -210,7 +205,7 @@ Có 2 cấu trúc khai báo file header tương ứng với 2 nhóm thư viện:
 - Function-like macro.  
 
 ```cpp
-#define new_name_use name_want_swap
+#define new_name_use name_want_swap 
 ```
 
 **a. Oject-like macro - Macro như đối tượng.**
@@ -247,7 +242,7 @@ Chỉ thị #undef dùng để hủy bỏ định nghĩa trước đó của nó
 #define PI 3.14
 #undef PI
 
-#deffine SUM(a, b) ((a) + (b))
+#define SUM(a, b) ((a) + (b))
 #undef SUM
 ```
 ### 3. Chỉ thị biên dịch có điều kiện (#if, #elif, #else, #endif, #ifdef, #ifndef).    
