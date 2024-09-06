@@ -16,7 +16,7 @@ Memory Layout của một chương trình C/C++ gồm 5 phần chính: Text/Code
 - Chia sẻ mã nguồn      
     -- Nếu có nhiều luồng (Threads) trong một chương trình, thay vì mỗi luồng khi chạy nó sẽ đưa mã nguồn vào RAM thì hệ điều hành cho phép chúng dùng chung vùng Text/Code Segment còn các phân vùng khác thì sẽ tạo ra riêng.     
     -- Khi nhiều luồng cùng sử dụng chung một chương trình, Text/Code Segment sẽ chỉ được nạp vào bộ nhớ một lần.       
-### 2. Intialized Data Segment (DS).     
+### 2. Intialized Data Segment (Data).     
 Phần này có thể chia nhỏ ra làm 2 phần: Vùng nhớ hằng (Ko thay đổi được giá trị hay là vùng nhớ Read only) và vùng nhớ lưu các biến toàn cục.       
 #### 2.1 Vùng nhớ lưu trữ biến toàn cục.    
 * Vùng nhớ này chuyên lưu trữ các biến toàn cục, các biến Static đã được khai báo giá trị (≠0).
